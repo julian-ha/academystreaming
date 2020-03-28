@@ -1,0 +1,36 @@
+<div class="modal" id="login">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <!-- Any other Bulma elements you want -->
+    <article class="message is-link">
+        <div class="message-header">
+            <p>Anmeldung</p>
+            <button class="delete" aria-label="delete" onclick="modal('login')"></button>
+        </div>
+        <div class="message-body">
+            <div class="field">
+                <label class="label">Benutzername</label>
+                <div class="control has-icons-left">
+                    <input type="text" name="benutzername" class="input" required>
+                    <span class="icon is-normal is-left">
+                        <i class='lni lni-user'></i>
+                    </span>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Passwort</label>
+                <div class="control has-icons-left">
+                    <input type="password" name="passwort" class="input" required>
+                    <span class="icon is-normal is-left">
+                        <i class='lni lni-key'></i>
+                    </span>
+
+                </div>
+            </div>
+            <button class="button is-light">Anmelden</button>
+        </div>
+    </article>
+
+  </div>
+  {{!-- <button class="modal-close is-large" aria-label="close" onclick="loginModal()"></button> --}}
+</div>
